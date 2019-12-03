@@ -357,7 +357,7 @@
 					<section class="wrapper style2 align-center" id="contact">
 						<div class="inner medium">
 							<h2><strong>Enquire Now</strong></h2>
-							<form method="post" action="#">
+							<form method="post" action="/">
 								<div class="fields">
 									<div class="field">
 										<label for="name">Name</label>
@@ -365,7 +365,7 @@
 									</div>
 									<div class="field ">
 										<label for="mobile">Mobile</label>
-										<input type="tel" name="name" id="name" value="" required />
+										<input type="tel" pattern="^\d{10}$" title="Please enter a valid 10 digit mobile number" name="name" id="name" value="" required />
 									</div>
 									<!--<div class="field">
 										<label for="message">Message</label>
@@ -373,7 +373,7 @@
 									</div>-->
 								</div>
 								<ul class="actions special">
-									<li><input type="submit" name="submit" id="submit" value="ENQUIRE NOW" /></li>
+									<li><input type="submit" name="submit" id="submit" value="Submit" /></li>
 								</ul>
 							</form>
 
